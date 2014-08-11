@@ -1,0 +1,27 @@
+{
+    "name": "alexander-kaginyan/curl",
+    "type": "library",
+    "description": "Another PHP cURL wrapper library",
+    "keywords": ["curl", "http", "util", "helper"],
+    "homepage": "https://github.com/akaginyan/PHP-cUrl-Wrapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Kaginyan",
+            "email": "alexander.kaginyan@gmail.com",
+            "homepage": "http://akaginyan.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "alexander.kaginyan@gmail.com",
+        "issues": "https://github.com/svyatov/CurlWrapper/issues",
+        "source": "https://github.com/svyatov/CurlWrapper"
+    },
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "classmap": ["Curl.php"]
+    }
+}
